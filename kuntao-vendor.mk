@@ -125,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/lenovo/kuntao/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \  
     vendor/lenovo/kuntao/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
@@ -684,6 +685,9 @@ PRODUCT_PACKAGES += \
     TimeService \
     datastatusnotification \
     fastdormancy \
+    nfc_sim \
+    SmartcardService \
+    org.simalliance.openmobileapi \
     shutdownlistener \
     CNEService \
     QtiTetherService \
