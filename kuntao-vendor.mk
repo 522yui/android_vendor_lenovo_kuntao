@@ -125,7 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/lenovo/kuntao/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \  
+    vendor/lenovo/kuntao/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
@@ -151,7 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/kuntao/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/lenovo/kuntao/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd \
     vendor/lenovo/kuntao/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
